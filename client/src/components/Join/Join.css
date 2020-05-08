@@ -18,7 +18,9 @@ html, body {
     text-align: center;
     height: 100vh;
     align-items: center;
-    background-color: #1A1A1D;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
   }
   
   .joinInnerContainer {
@@ -31,13 +33,20 @@ html, body {
     width: 100%;
   }
   
-  .heading {
+  .heading1 {
     color: white;
     font-size: 2.5em;
     padding-bottom: 10px;
     border-bottom: 2px solid white;
   }
   
+  .heading2 {
+    color: white;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+
   .button {
       color: #fff !important;
       text-transform: uppercase;
@@ -64,6 +73,18 @@ html, body {
     }
   
   
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
   
   button:focus {

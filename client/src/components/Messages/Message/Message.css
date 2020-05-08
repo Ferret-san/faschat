@@ -3,3 +3,23 @@
     overflow: auto;
     flex: auto;
   }
+.messageContainer-justifyEnd {
+  justify-self: end;
+}
+.messageBox-backgroundBlue{
+  background-color:  #2979FF;
+  flex: auto;
+  width: auto;
+}
+.messageText-colorWhite{
+  color: white;
+}
+.messageContainer-justifyStart{
+  justify-self: start;
+}
+.messageBox-backgroundLight{
+  background-color: white;
+}
+.messageText-colorDark{
+  color: darkgrey;
+}
