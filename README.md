@@ -6,9 +6,9 @@ You can try out by yourself using multiple windows or different devices (works i
 Currently supports sending text and emojis (they are render according to the native device).
 Simply enter a name and a room, can be a single character or a name. <br />
 Example: <br />
-       Name: Diego <br />
-       Room: 1 <br />
+      \t Name: Diego <br />
+      \t Room: 1 <br />
   Or <br />
-       Name: Diego <br />
-       Room: SuperCool&AwesomeRoom <br />
+     \t Name: Diego <br />
+     \t Room: SuperCool&AwesomeRoom <br />
 
